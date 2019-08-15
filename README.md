@@ -1,6 +1,21 @@
 # API-REST-RESTFULL
 Studying api-rest/restfull
 
+feature
+
+API: Acronimo de Application Programming Interface (Interface de Programação de Aplicações) é basicamente um conjunto de rotinas e padrões estabelecidos por uma aplicação, para que outras aplicações possam utilizar as funcionalidades desta aplicação.
+
+- Responsável por estabelecer comunicação entre diferentes serviços.
+- Meio de campo entre tecnologias.
+- Intemediador para troca de informações.
+
+REST: Acrônimo para Representation State Transfer (Transferência de Estado Representativo).
+
+- Será feita a transferência de dados de uma maneira simbólica, figurativa, representativa de maneira didática.
+- A transferência de dados, geralmente, usando o protocolo HTTP.
+- O Rest, delimita algumas obrigações nessas transferências de dados.
+- Resources seria então, uma entidade, um objeto.
+
 6 necessidades (constraints) para ser Restful
 
 1. _Client_Server_: Separação do cliente e do armazenamento de dados (servidor), desta forma, poderemos ter uma portabilidade do nosso sistema, usando React para Web e React Native para smartphone, por exemplo.
