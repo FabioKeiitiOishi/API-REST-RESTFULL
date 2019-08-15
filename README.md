@@ -13,3 +13,16 @@ Studying api-rest/restfull
 - Utilizar verbos HTTP para nossas requisições
 - Utilizar plural ou singular na criação de endpoints? _NÃO IMPORTA!_ use um padrão;
 - Nunca deixe o seu cliente sem resposta.
+
+#STATUS DAS RESPOSTAS
+- 1xx: Informações;
+- 2xx: Sucesso
+  -200: OK
+  -201: CREATED
+  -204: Não tem conteúdo PUT POST DELETE
+-3xx: Redirection
+-4xx: Client error
+  -400: Bad Request
+  -404: Not Found
+-5xx: Server Error
+-6xx: Internal Server Error
